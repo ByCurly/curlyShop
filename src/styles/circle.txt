@@ -1,0 +1,12 @@
+const Circle = () => {
+  return <View style={styles.circle} />;
+};
+
+StyleSheet.create({
+  circle: {
+    width: 100,
+    height: 100,
+    borderRadius: 100 / 2,
+    backgroundColor: "red",
+  },
+});
